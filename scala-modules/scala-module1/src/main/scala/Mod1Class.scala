@@ -3,5 +3,5 @@ object Mod1Class extends App {
 }
 
 class Mod1Class {
-	def test(): String = JavaTest1.java1() + "testing"
+	def test(): String = JavaTest1.java1() + "Mod1Class"
 }
