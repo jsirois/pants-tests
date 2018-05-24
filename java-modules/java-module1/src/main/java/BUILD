@@ -1,5 +1,5 @@
 java_library(
-    name='java-module1',
+    sources=rglobs('*.java'),
     dependencies=[
         scoped('3rdparty:deps-compile')
     ]

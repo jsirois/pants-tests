@@ -1,15 +1,13 @@
-scala_library(
-    sources=rglobs('src/main/scala/*'),
-    dependencies=[
-        'project:java-module1'
-    ]
+target (
+    dependencies=['scala-modules/scala-module1/src/main/scala']
 )
 
-junit_tests(
+target (
     name='tests',
-    sources=rglobs('src/test/scala/*'),
-    dependencies=[
-        ':scala-module1',
-        scoped('3rdparty:deps-test', 'test'),
-    ]
+    dependencies=['scala-modules/scala-module1/src/test/scala']
+)
+
+target (
+    name='test-resources',
+    dependencies=['scala-modules/scala-module1/src/test/resources']
 )

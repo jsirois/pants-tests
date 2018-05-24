@@ -1,13 +1,5 @@
 jvm_binary(
-    name='java-module2',
-    dependencies=[
-        'project:java-module1'
-    ],
-    source='JavaTest2.java',
-    main='JavaTest2'
-)
-
-jvm_app(
-    name='java-module2-app',
-    dependencies=[':java-module2']
+    dependencies=['java-modules/java-module1'],
+    source='org/lulu/mod2/JavaTest2.java',
+    main='org/lulu/mod2/JavaTest2'
 )

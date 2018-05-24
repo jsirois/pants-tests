@@ -1,4 +1,4 @@
-package sub;
+package org.lulu.mod1.sub;
 
 public class JavaTest1Sub {
 

@@ -1,4 +1,7 @@
+package org.lulu.mod2;
+
 import org.apache.commons.lang.StringUtils;
+import org.lulu.mod1.JavaTest1;
 
 public class JavaTest2 {
 

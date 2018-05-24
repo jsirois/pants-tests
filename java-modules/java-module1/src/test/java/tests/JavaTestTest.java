@@ -1,15 +1,16 @@
+package tests;
+
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.BlockJUnit4ClassRunner;
-import org.lulu.mod1.JavaTest1;
+import org.lulu.mod1.sub.JavaTest1Sub;
 
 @RunWith(BlockJUnit4ClassRunner.class)
-public class JavaTest1Test {
+public class JavaTestTest {
 
     @Test
     public void test() {
-        Assert.assertEquals("java1", JavaTest1.java1());
+        Assert.assertEquals("java1", JavaTest1Sub.java1());
     }
-
 }
