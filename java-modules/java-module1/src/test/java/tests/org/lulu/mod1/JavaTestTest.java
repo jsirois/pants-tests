@@ -1,4 +1,4 @@
-package tests;
+package tests.org.lulu.mod1;
 
 import org.junit.Assert;
 import org.junit.Test;
