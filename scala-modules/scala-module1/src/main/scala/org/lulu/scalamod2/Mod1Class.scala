@@ -9,3 +9,9 @@ class Mod1Class {
 object Mod1Class extends App {
 	println(new Mod1Class().test())
 }
+
+object Mod1ClassMain {
+	def main(args: Array[String]): Unit = {
+		println(new Mod1Class().test())
+	}
+}
