@@ -1,4 +1,4 @@
-casbah = scala_jar('org.mongodb', 'casbah', '3.1.1')
+casbah = scala_jar('org.mongodb', 'casbah', '3.1.1', ext='pom')
 
 jar_library(
     name = 'scala-module2-deps',
